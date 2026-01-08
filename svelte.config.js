@@ -13,7 +13,7 @@ const config = {
       // Static site output folder
       pages: 'build',
       assets: 'build',
-      fallback: 'index.html', // Using index.html instead of null for a real static site
+      fallback: '404.html', // 404 page for unmatched routes
       precompress: false,
       strict: true
     }),
@@ -35,7 +35,8 @@ const config = {
         '/pinewood-derby-info'
       ],
       handleHttpError: 'warn',
-      handleMissingId: 'warn'
+      handleMissingId: 'warn',
+      handleUnseenRoutes: 'ignore'
     }
   }
 };
