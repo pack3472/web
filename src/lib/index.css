@@ -1,0 +1,8 @@
+@import "tailwindcss";
+/* Pack 3472 Custom Theme - BSA Cub Scout Colors */
+@import "./themes/pack3472.css";
+
+@source "../";
+@source "../../node_modules/statue-ssg/src/**/*.{svelte,js,ts}";
+
+:root { color-scheme: light; }
