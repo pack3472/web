@@ -1,0 +1,24 @@
+/* Pack 3472 Theme - BSA Cub Scout Colors */
+
+@theme {
+  /* Core palette - Light theme with BSA colors */
+  --color-background: #ffffff;     /* White background */
+  --color-card: #f8fafc;           /* Light gray card background */
+  --color-border: #e2e8f0;         /* Light border */
+  --color-foreground: #1e293b;     /* Dark slate text */
+  --color-muted: #64748b;          /* Muted slate text */
+
+  /* Brand colors - BSA Navy Blue and Gold */
+  --color-primary: #003F87;        /* BSA Navy Blue - primary accent */
+  --color-secondary: #FFC72C;      /* BSA Gold/Yellow - secondary accent */
+  --color-accent: #002855;         /* Darker navy for accents */
+
+  /* Text colors for different surfaces */
+  --color-on-primary: #ffffff;     /* White text on navy buttons */
+  --color-on-background: #1e293b;  /* Dark text on light background */
+
+  /* Hero gradients - Navy blue gradient */
+  --color-hero-from: #003F87;      /* BSA Navy Blue */
+  --color-hero-via: #002855;       /* Darker navy */
+  --color-hero-to: #001a3d;        /* Darkest navy */
+}
