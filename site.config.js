@@ -20,10 +20,10 @@ export const siteConfig = {
 
     // Meeting location
     address: {
-      name: "Pack 3472 Meeting Location",
+      name: "Prairie Star Elementary School",
       street: "",
-      city: "",
-      state: "",
+      city: "Leawood",
+      state: "KS",
       zipCode: "",
       country: "United States"
     }
